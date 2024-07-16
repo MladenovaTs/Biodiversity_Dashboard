@@ -1,0 +1,200 @@
+.welcome-page {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.welcome-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body {
+  background: #f8f9fa;
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+  overflow: auto;
+}
+
+.sidebar {
+  background-color: rgba(52, 58, 64, 0.8);
+  padding: 15px;
+  border-right: 1px solid #0069d9;
+}
+
+.sidebar .sidebar-menu .menu-item a {
+  color: #fff;
+}
+
+.sidebar .sidebar-menu .menu-item a:hover {
+  background-color: #495057;
+}
+
+.main {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  height: auto;
+  overflow: hidden;
+}
+
+.box-body {
+  overflow-y: auto;
+}
+
+.leaflet-container {
+  height: 600px !important;
+}
+
+.plotly-graph-div {
+  height: 400px !important;
+}
+
+.tab-content {
+  padding: 10px;
+}
+
+.selectize-dropdown-content {
+  max-height: 300px !important;
+  overflow-y: auto !important;
+}
+
+.selectize-dropdown {
+  z-index: 1000 !important;
+}
+
+.dataTables_wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Custom font size for DataTable */
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate,
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_scroll,
+.dataTables_wrapper .dataTables_scrollHead,
+.dataTables_wrapper .dataTables_scrollBody,
+.dataTables_wrapper .dataTables_scrollFoot,
+.dataTables_wrapper .dataTables_header {
+  font-size: 12px;
+}
+
+/* Ensure DataTable fits within its container */
+.dataTables_wrapper .dataTables_scrollBody {
+  text-align: left;
+}
+
+.dataTables_wrapper table {
+  width: 100% !important;
+}
+
+/* Fix overlapping issue */
+.dataTables_wrapper .dataTables_length {
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float: right;
+  margin-top: 10px;
+}
+
+.dataTables_wrapper .dataTables_length label,
+.dataTables_wrapper .dataTables_filter label {
+  display: flex;
+  align-items: center;
+}
+
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .dataTables_filter input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.equal-height .box-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.equal-height .leaflet {
+  flex-grow: 1;
+}
+
+.custom-message {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #007BFF;
+  margin-top: 20px;
+}
+
+.custom-legend-text {
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: white;
+}
+
+.custom-search-container {
+  width: 100%;
+}
+
+.selectize-input, .selectize-control {
+  width: 100% !important;
+}
+
+.search-container, .map-container {
+  height: 400px;
+  overflow: auto;
+}
+
+.search-container .box, .map-container .box {
+  height: 100%;
+  overflow: hidden;
+}
+
+.tab-content .timeline-module {
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.map-container .leaflet-container {
+  min-height: 300px; /* Adjust min-height as needed */
+}
+
+/*# sourceMappingURL=styles.css.map */
